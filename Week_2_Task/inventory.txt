@@ -1,0 +1,5 @@
+P005       VR Headset      Qty: 6     Aisle 5  | Shelf 2  | Bin 5 
+P004       Mac Mini        Qty: 4     Aisle 4  | Shelf 3  | Bin 1 
+P001       Laptop          Qty: 9     Aisle 1  | Shelf 1  | Bin 1 
+P003       Tablet          Qty: 7     Aisle 3  | Shelf 2  | Bin 2 
+P002       Phone           Qty: 5     Aisle 2  | Shelf 1  | Bin 3 
