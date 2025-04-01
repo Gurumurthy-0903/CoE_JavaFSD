@@ -1,0 +1,12 @@
+<div class="about-us-container">
+    <h1>About Us</h1>
+    <div *ngIf="aboutUs.length > 0; else noData">
+        <div *ngFor="let item of aboutUs" class="about-us-item">
+            <img [src]="'http://localhost:8090/' + item.imageUrl" alt="{{ item.title }}" class="about-us-image" />
+            <p class="about-us-text">{{ item.description }}</p>
+        </div>
+    </div>
+    <ng-template #noData>
+        <p>No information available at the moment.</p>
+    </ng-template>
+</div>

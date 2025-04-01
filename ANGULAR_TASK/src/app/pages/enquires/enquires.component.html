@@ -1,0 +1,14 @@
+<div class="enquires-container">
+    <h1>Enquiries</h1>
+    <div *ngIf="enquires.length === 0" class="no-enquiries">
+        <p>No enquiries available.</p>
+    </div>
+    <ul *ngIf="enquires.length > 0" class="enquiries-list">
+        <li *ngFor="let enquiry of enquires" class="enquiry-item">
+            <h3>{{ enquiry.name }}</h3>
+            <p>Email: {{ enquiry.email }}</p>
+            <p>Phone: {{ enquiry.phone }}</p>
+            <p>Message: {{ enquiry.message }}</p>
+        </li>
+    </ul>
+</div>

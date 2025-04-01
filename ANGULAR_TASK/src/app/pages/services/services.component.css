@@ -1,0 +1,29 @@
+/* Ensures all cards have a fixed medium size */
+.card {
+    height: 500px; /* Adjust height as needed */
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensures images have a fixed height and do not stretch */
+.card-img-top {
+    height: 300px; /* Adjust image height */
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Equal spacing between rows */
+.row {
+    margin: 0 auto;
+}
+
+.g-4 > [class*='col'] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
